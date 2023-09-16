@@ -1,0 +1,28 @@
+.why-us {
+    padding: 150px 0px;
+    border-bottom: 1px solid #2f2f2f;
+    .whyus-cards{
+        margin-right: 100px;
+        position: relative;
+
+         &.br::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -50px;
+            height: 100%;
+            width: 1px;
+            background-color: #2f2f2f;
+        }
+        
+        h4{
+            margin: 20px 0px 14px;
+        }
+    }
+    img{
+        margin-left: -12px;
+        &.graphic{
+            margin-left: -20px;
+        }
+    }
+}

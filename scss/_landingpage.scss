@@ -1,0 +1,33 @@
+.landing_pg {
+    padding: 150px 0px;
+    border-bottom: 1px solid #2f2f2f;
+
+    h1 {
+        font-size: 11.0rem;
+        margin-bottom: 8px;
+        font-family: 'gilroybold';
+    }
+}
+
+.creative-font {
+    font-family: 'Epilogue700', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #fe6f27;
+}
+
+footer {
+    font-size: 1.6rem;
+    padding: 20px;
+    border-bottom: 1px solid #2f2f2f;
+    border-top: 1px solid #2f2f2f;
+    font-family: "Poppinsregular";
+}
+
+.social-links a {
+    color: #2f2f2f;
+    font-size: 2.2rem;
+
+    &:hover {
+        color: #fe6f27;
+    }
+}
